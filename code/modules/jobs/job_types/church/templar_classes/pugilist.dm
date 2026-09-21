@@ -217,12 +217,15 @@
 					spawned.add_spell(/datum/action/innate/clench_fists, TRUE)
 					ADD_TRAIT(spawned, TRAIT_CLOSECOMBAT, JOB_TRAIT)
 				if("Katar")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE)
 					spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10, 40)
 					ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, JOB_TRAIT)
 				if("Knuckledusters")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE)
 					spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10, 40)
 					ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, JOB_TRAIT)
 				if("Quarterstaff")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages, ITEM_SLOT_GLOVES, TRUE)
 					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/pugilist/patron/visires/quarterstaff)
 		if(/datum/patron/divine/akan)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/pugilist/patron/akan)
@@ -245,12 +248,15 @@
 					spawned.add_spell(/datum/action/innate/clench_fists, TRUE)
 					ADD_TRAIT(spawned, TRAIT_CLOSECOMBAT, JOB_TRAIT)
 				if("Katar")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE)
 					spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10, 40)
 					ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, JOB_TRAIT)
 				if("Knuckledusters")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE)
 					spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10, 40)
 					ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, JOB_TRAIT)
 				if("Quarterstaff")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages, ITEM_SLOT_GLOVES, TRUE)
 					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/pugilist/patron/akan/quarterstaff)
 
 			var/static/list/selectable_books = list(
@@ -287,12 +293,15 @@
 					spawned.add_spell(/datum/action/innate/clench_fists, TRUE)
 					ADD_TRAIT(spawned, TRAIT_CLOSECOMBAT, JOB_TRAIT)
 				if("Katar")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE)
 					spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10, 40)
 					ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, JOB_TRAIT)
 				if("Knuckledusters")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE)
 					spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10, 40)
 					ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, JOB_TRAIT)
 				if("Quarterstaff")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages, ITEM_SLOT_GLOVES, TRUE)
 					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/pugilist/patron/gani/quarterstaff)
 		if(/datum/patron/divine/valdala)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/pugilist/patron/valdala)
@@ -316,12 +325,15 @@
 					spawned.add_spell(/datum/action/innate/clench_fists, TRUE)
 					ADD_TRAIT(spawned, TRAIT_CLOSECOMBAT, JOB_TRAIT)
 				if("Katar")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE)
 					spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10, 40)
 					ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, JOB_TRAIT)
 				if("Knuckledusters")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE)
 					spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10, 40)
 					ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, JOB_TRAIT)
 				if("Quarterstaff")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages, ITEM_SLOT_GLOVES, TRUE)
 					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/pugilist/patron/valdala/quarterstaff)
 		if(/datum/patron/divine/erdl)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/pugilist/patron/erdl)
@@ -345,14 +357,18 @@
 					spawned.add_spell(/datum/action/innate/clench_fists, TRUE)
 					ADD_TRAIT(spawned, TRAIT_CLOSECOMBAT, JOB_TRAIT)
 				if("Katar")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE)
 					spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10, 40)
 					ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, JOB_TRAIT)
 				if("Knuckledusters")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE)
 					spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10, 40)
 					ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, JOB_TRAIT)
 				if("Quarterstaff")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages, ITEM_SLOT_GLOVES, TRUE)
 					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/pugilist/patron/erdl/quarterstaff)
 				if("Plaguebearer Sickles (Knives)")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages, ITEM_SLOT_GLOVES, TRUE)
 					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/pugilist/patron/erdl/knives)
 					ADD_TRAIT(spawned, TRAIT_DUALWIELDER, TRAIT_GENERIC)
 		if(/datum/patron/divine/pomette)
@@ -376,14 +392,18 @@
 					spawned.add_spell(/datum/action/innate/clench_fists, TRUE)
 					ADD_TRAIT(spawned, TRAIT_CLOSECOMBAT, JOB_TRAIT)
 				if("Katar")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE)
 					spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10, 40)
 					ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, JOB_TRAIT)
 				if("Knuckledusters")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE)
 					spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10, 40)
 					ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, JOB_TRAIT)
 				if("Quarterstaff")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages, ITEM_SLOT_GLOVES, TRUE)
 					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/pugilist/patron/pomette/quarterstaff)
 				if("Close Caress (Knuckles)")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE)
 					spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10, 40)
 					ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, JOB_TRAIT)
 		if(/datum/patron/divine/mordsol)
@@ -407,12 +427,15 @@
 					spawned.add_spell(/datum/action/innate/clench_fists, TRUE)
 					ADD_TRAIT(spawned, TRAIT_CLOSECOMBAT, JOB_TRAIT)
 				if("Katar")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE)
 					spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10, 40)
 					ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, JOB_TRAIT)
 				if("Knuckledusters")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE)
 					spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10, 40)
 					ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, JOB_TRAIT)
 				if("Quarterstaff")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages, ITEM_SLOT_GLOVES, TRUE)
 					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/pugilist/patron/mordsol/quarterstaff)
 		if(/datum/patron/divine/golerkanh)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/pugilist/patron/golerkanh)
@@ -435,12 +458,15 @@
 					spawned.add_spell(/datum/action/innate/clench_fists, TRUE)
 					ADD_TRAIT(spawned, TRAIT_CLOSECOMBAT, JOB_TRAIT)
 				if("Katar")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE)
 					spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10, 40)
 					ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, JOB_TRAIT)
 				if("Knuckledusters")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE)
 					spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10, 40)
 					ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, JOB_TRAIT)
 				if("Quarterstaff")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages, ITEM_SLOT_GLOVES, TRUE)
 					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/pugilist/patron/golerkanh/quarterstaff)
 		if(/datum/patron/divine/mjallidhorn)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/pugilist/patron/mjallidhorn)
@@ -463,14 +489,18 @@
 					spawned.add_spell(/datum/action/innate/clench_fists, TRUE)
 					ADD_TRAIT(spawned, TRAIT_CLOSECOMBAT, JOB_TRAIT)
 				if("Katar")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE)
 					spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10, 40)
 					ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, JOB_TRAIT)
 				if("Knuckledusters")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE)
 					spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10, 40)
 					ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, JOB_TRAIT)
 				if("Quarterstaff")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages, ITEM_SLOT_GLOVES, TRUE)
 					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/pugilist/patron/mjallidhorn/quarterstaff)
 				if("Barotrauma (Katars)")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE)
 					spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10, 40)
 					ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, JOB_TRAIT)
 		if(/datum/patron/divine/iliope)
@@ -493,12 +523,15 @@
 					ADD_TRAIT(spawned, TRAIT_IGNOREDAMAGESLOWDOWN, JOB_TRAIT)
 					ADD_TRAIT(spawned, TRAIT_CLOSECOMBAT, JOB_TRAIT)
 				if("Katar")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE)
 					spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10, 40)
 					ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, JOB_TRAIT)
 				if("Knuckledusters")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE)
 					spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10, 40)
 					ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, JOB_TRAIT)
 				if("Quarterstaff")
+					spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages, ITEM_SLOT_GLOVES, TRUE)
 					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/pugilist/patron/iliope/quarterstaff)
 
 /datum/outfit/templar/pugilist
@@ -509,41 +542,29 @@
 	shirt = /obj/item/clothing/shirt/tunic/colored/black
 	pants = /obj/item/clothing/pants/tights/colored/black
 	shoes = /obj/item/clothing/shoes/gladiator
-	gloves = /obj/item/clothing/gloves/bandages/weighted
 
 /datum/outfit/templar/pugilist/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
 	. = ..()
 	switch(equipped_human.patron?.type)
 		if(/datum/patron/divine/visires)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/visires
-			head = /obj/item/clothing/head/helmet/heavy/necked/visires
 		if(/datum/patron/divine/akan)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/akan
-			head = /obj/item/clothing/head/helmet/heavy/necked/akan
 			backpack_contents += /obj/item/chalk
 		if(/datum/patron/divine/gani)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/gani
-			head = /obj/item/clothing/head/helmet/heavy/necked/ganihelm
 		if(/datum/patron/divine/valdala)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/valdala
-			head = /obj/item/clothing/head/helmet/heavy/necked/valdala
 		if(/datum/patron/divine/erdl)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/erdl
-			head = /obj/item/clothing/head/helmet/heavy/necked/erdlhelm
 			backpack_contents += /obj/item/reagent_containers/glass/bottle/poison
 		if(/datum/patron/divine/pomette)
-			head = /obj/item/clothing/head/helmet/sallet/pomettic
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/pomette
 		if(/datum/patron/divine/mordsol)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/mordsol
-			head = /obj/item/clothing/head/helmet/heavy/necked/mordsol
 		if(/datum/patron/divine/golerkanh)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/golerkanh
-			head = /obj/item/clothing/head/helmet/heavy/necked/golerkanhhelm
 		if(/datum/patron/divine/mjallidhorn)
-			head = /obj/item/clothing/head/helmet/heavy/necked/mjallidhorn
-			armor = /obj/item/clothing/armor/brigandine/mjallidhorn
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
 		if(/datum/patron/divine/iliope)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/iliope
-			head = /obj/item/clothing/head/helmet/heavy/necked/iliope
