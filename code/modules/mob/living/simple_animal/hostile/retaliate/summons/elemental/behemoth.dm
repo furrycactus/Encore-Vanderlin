@@ -83,3 +83,9 @@
 	penfactor = 15
 	swingdelay = 3
 	candodge = TRUE
+
+/mob/living/simple_animal/hostile/retaliate/elemental/behemoth/katholikos
+	name = "divine earthen guardian"
+	desc = "A divine guardian, a blessed Earth elemental that's been called to stand vigil over a place of spiritual importance."
+	faction = list(FACTION_CHURCH)//Will gleefully kill anyone who is not a member of the Church
+	del_on_deaggro = FALSE

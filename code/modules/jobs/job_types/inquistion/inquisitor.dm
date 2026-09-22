@@ -439,4 +439,4 @@
 
 /datum/job/advclass/puritan
 	exp_types_granted = list(EXP_TYPE_INQUISITION, EXP_TYPE_COMBAT, EXP_TYPE_LEADERSHIP)
-	factions = list(FACTION_INQUISITION, FACTION_TOWN)
+	factions = list(FACTION_INQUISITION, FACTION_TOWN, FACTION_CHURCH)
