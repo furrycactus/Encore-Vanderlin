@@ -1,4 +1,4 @@
-/datum/attribute_holder/sheet/job/pugilist
+/datum/attribute_holder/sheet/job/templar/pugilist
 	raw_attribute_list = list(
 		STAT_STRENGTH = 2,
 		STAT_ENDURANCE = 2,

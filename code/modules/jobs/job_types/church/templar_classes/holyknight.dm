@@ -1,4 +1,4 @@
-/datum/attribute_holder/sheet/job/holyknight
+/datum/attribute_holder/sheet/job/templar/holyknight
 	raw_attribute_list = list(
 		STAT_STRENGTH = 2,
 		STAT_CONSTITUTION = 2,
