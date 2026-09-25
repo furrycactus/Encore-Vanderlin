@@ -17,8 +17,7 @@
 	alt_titles = list("Taverner", "Guildmaster")
 	tutorial = "Liquor, lodging, and lavish meals... your business is the beating heart of Old Doma. \
 		You're the one who provides the hardworking townsfolk with a place to eat and drink their sorrows away, \
-		and accommodations for weary travelers passing through. Additionally, the local Mercenary's Guild operates \
-		within your establishment, so you'll be overseeing the coming and going of all sorts of adventurers and mercenaries."
+		and accommodations for weary travelers passing through."
 	department_flag = SERFS
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_INNKEEP

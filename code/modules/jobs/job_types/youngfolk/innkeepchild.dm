@@ -16,6 +16,7 @@
 /datum/job/innkeep_son
 	title = JOB_INNKEEP_SON
 	f_title = "Tavern Assistant"
+	alt_titles = list("Guild Attendant")
 	tutorial = "One of the Innkeeper's assistants; you're the lowest rung on the ladder in their business venture. Clean floors and cutlery, fetch ingredients and casks; whatever the rest of the staff ask of you. You might even pour a drink or two if they're too busy; whatever needs doing."
 	department_flag = YOUNGFOLK
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
