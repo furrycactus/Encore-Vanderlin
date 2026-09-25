@@ -78,7 +78,7 @@ GLOBAL_VAR(lordsecondary)
 		addtimer(CALLBACK(src, PROC_REF(lord_color_choice)), 5 SECONDS)
 		return
 	var/list/lordcolors = list(
-		"ALYSSANDRINE'S AZURE"="#007FFF",
+		"ALYSSANDRINE'S CERULEAN"="#007FFF",
 		"MALRYCK'S SILVER"="#EEEEEE",
 		"PURPLE"="#865c9c",
 		"RED"="#8f3636",
