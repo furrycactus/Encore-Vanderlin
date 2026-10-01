@@ -25,9 +25,11 @@
 
 /obj/structure/fake_machine/scomm/r
 	SET_BASE_PIXEL(32, 0)
+	icon_state = "scommright1"
 
 /obj/structure/fake_machine/scomm/l
 	SET_BASE_PIXEL(-32, 0)
+	icon_state = "scommleft1"
 
 /obj/structure/fake_machine/scomm/examine(mob/user)
 	. = ..()
