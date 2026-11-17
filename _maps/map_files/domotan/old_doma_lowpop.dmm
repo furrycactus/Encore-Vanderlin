@@ -172,21 +172,10 @@
 	pixel_x = 32;
 	pixel_y = 0
 	},
-/obj/structure/closet/crate/crafted_closet/inn/chest,
-/obj/item/paper,
-/obj/item/paper,
-/obj/item/paper,
-/obj/item/paper,
-/obj/item/paper,
-/obj/item/paper,
-/obj/item/paper,
-/obj/item/paper,
-/obj/item/paper,
-/obj/item/paper,
-/obj/item/natural/feather,
-/obj/item/natural/feather,
+/obj/structure/closet/crate/crafted_closet/inn,
+/obj/effect/spawner/guaranteed_map_spawner/listed/clothes/fancy,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/town/keep/phys)
+/area/indoors/town/keep/captain)
 "adL" = (
 /obj/structure/window/openclose{
 	dir = 4
@@ -578,7 +567,7 @@
 "aut" = (
 /obj/structure/fake_machine/scomm/l,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/town/keep/phys)
+/area/indoors/town/keep/captain)
 "auv" = (
 /turf/open/floor/metal,
 /area/indoors/town/steward)
@@ -973,7 +962,7 @@
 "aGB" = (
 /obj/structure/fluff/walldeco/painting/skull,
 /turf/closed/wall/mineral/wood,
-/area/indoors/town/keep/phys)
+/area/indoors/town/keep/captain)
 "aHc" = (
 /obj/structure/fluff/walldeco/church/line{
 	dir = 1
@@ -4311,7 +4300,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/ruinedwood/two,
-/area/indoors/town/keep/phys)
+/area/indoors/town/keep/captain)
 "cIa" = (
 /obj/machinery/light/fueledstreet/blue/wall{
 	dir = 8
@@ -6947,14 +6936,8 @@
 /turf/closed/mineral,
 /area/indoors/town/church/crypt)
 "etG" = (
-/obj/structure/carpet/purple,
-/obj/structure/fluff/psycross/erdl{
-	pixel_y = 22;
-	density = 0
-	},
-/obj/machinery/light/fueled/wallfire/candle/incense{
-	pixel_y = 10;
-	pixel_x = 9
+/obj/structure/fluff/walldeco/banner{
+	pixel_y = 30
 	},
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors/town/keep/phys)
@@ -10775,12 +10758,12 @@
 /area/indoors/town/church/inquisition)
 "gGS" = (
 /obj/effect/mapping_helpers/access/locker,
-/obj/effect/mapping_helpers/access/keyset/manor/physician/butler,
 /obj/structure/door/fancy{
-	name = "Court Physician's Office"
+	name = "Captain's Apartment"
 	},
-/turf/open/floor/ruinedwood/chevron,
-/area/indoors/town/keep/phys)
+/obj/effect/mapping_helpers/access/keyset/garrison/captain/butler,
+/turf/open/floor/wood,
+/area/indoors/town/keep/captain)
 "gHg" = (
 /obj/structure/fluff/walldeco/church/line{
 	dir = 4
@@ -10927,11 +10910,9 @@
 /turf/open/floor/naturalstone,
 /area/indoors/town/noble_manor/yellow)
 "gMO" = (
-/obj/structure/fluff/walldeco/painting/castle{
-	pixel_x = 32
-	},
-/turf/open/floor/ruinedwood/chevron,
-/area/indoors/town/keep/phys)
+/obj/structure/fluff/walldeco/vinez,
+/turf/closed/wall/mineral/stone,
+/area/indoors/town/keep/captain)
 "gMY" = (
 /obj/structure/rack,
 /obj/item/natural/saddle,
@@ -11157,7 +11138,7 @@
 /area/indoors/town/keep/throne)
 "gVB" = (
 /turf/closed/wall/mineral/stone,
-/area/outdoors/exposed)
+/area/indoors/town/keep/captain)
 "gVF" = (
 /obj/machinery/light/fueledstreet/orange/wall,
 /turf/open/floor/ruinedwood/turned,
@@ -11351,12 +11332,8 @@
 /turf/closed/wall/mineral/wooddark,
 /area/indoors/town/waterworks)
 "hbc" = (
-/obj/effect/decal/carpet{
-	pixel_x = 16;
-	pixel_y = -3
-	},
-/turf/open/floor/ruinedwood/two,
-/area/indoors/town/keep/phys)
+/turf/open/floor/carpet/royalblack,
+/area/indoors/town/keep/captain)
 "hbd" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/ruinedwood/turned,
@@ -11587,7 +11564,11 @@
 /turf/open/floor/cobble,
 /area/outdoors/exposed)
 "heX" = (
-/obj/machinery/tanningrack,
+/obj/structure/rack,
+/obj/item/weapon/polearm/woodstaff/quarterstaff,
+/obj/item/weapon/polearm/woodstaff/quarterstaff{
+	pixel_x = -11
+	},
 /turf/open/floor/ruinedwood/turned/alt,
 /area/indoors/town/keep/magician/greenhouse)
 "hfk" = (
@@ -12422,11 +12403,9 @@
 /obj/structure/table/wood/reinf_long{
 	dir = 8
 	},
-/obj/item/recipe_book/medical{
-	pixel_y = 4
-	},
+/obj/item/natural/feather,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/town/keep/phys)
+/area/indoors/town/keep/captain)
 "hCW" = (
 /obj/structure/fluff/railing/border{
 	dir = 1
@@ -13578,14 +13557,10 @@
 /turf/open/floor/twig,
 /area/outdoors/town/roofs)
 "inn" = (
-/obj/machinery/light/fueledstreet/orange/wall{
-	dir = 4
-	},
-/obj/structure/chair/wood/alt/chair3{
-	dir = 4
-	},
-/turf/open/floor/ruinedwood/chevron,
-/area/indoors/town/keep/phys)
+/obj/machinery/light/fueledstreet/blue/wall,
+/obj/machinery/tanningrack,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/keep/magician/greenhouse)
 "ino" = (
 /obj/structure/bars,
 /turf/open/floor/naturalstone,
@@ -15846,10 +15821,10 @@
 /turf/open/floor/metal,
 /area/indoors/town/vault)
 "jyx" = (
-/obj/structure/carpet/green,
 /obj/structure/table/wood/folding,
+/obj/structure/carpet/blue,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/town/keep/phys)
+/area/indoors/town/keep/captain)
 "jzj" = (
 /obj/effect/decal/cobbleedge{
 	dir = 10;
@@ -16163,13 +16138,12 @@
 /turf/closed/wall/mineral/decostone,
 /area/indoors/town/keep)
 "jIj" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/lever{
-	pixel_y = 38;
-	redstone_id = "institute_shared_2"
+/obj/structure/fluff/walldeco/vinez,
+/obj/structure/sign/property_sign/claim/captain{
+	layer = 4.21
 	},
-/turf/open/floor/ruinedwood/turned/alt,
-/area/indoors/town/keep/magician/greenhouse)
+/turf/closed/wall/mineral/stone,
+/area/indoors/town/keep/captain)
 "jIS" = (
 /obj/structure/fluff/ship_hull{
 	icon_state = "9,1"
@@ -17830,12 +17804,6 @@
 /area/under/town/basement/smugglers_den)
 "kJx" = (
 /obj/machinery/light/fueledstreet/orange/wall,
-/obj/structure/table/wood,
-/obj/item/reagent_containers/glass/carafe/teapot/tea{
-	pixel_x = 10;
-	pixel_y = 9
-	},
-/obj/item/reagent_containers/glass/cup/teacup/fancy,
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors/town/keep/phys)
 "kJy" = (
@@ -18251,10 +18219,11 @@
 /turf/open/floor/grass/cold,
 /area/outdoors/town/neighborhood)
 "lbu" = (
-/obj/structure/closet/crate/crafted_closet/inn,
-/obj/effect/spawner/guaranteed_map_spawner/listed/clothes/fancy,
-/turf/open/floor/ruinedwood/two,
-/area/indoors/town/keep/phys)
+/obj/structure/fake_machine/mail{
+	mailtag = "Captain's Quarters"
+	},
+/turf/open/floor/carpet/royalblack,
+/area/indoors/town/keep/captain)
 "lbz" = (
 /obj/effect/decal/shadow_floor{
 	dir = 5
@@ -19249,12 +19218,12 @@
 /obj/structure/chair/wood/alt/chair_noble{
 	dir = 4
 	},
-/obj/structure/carpet/green,
-/obj/effect/landmark/start/courtphys{
+/obj/structure/carpet/blue,
+/obj/effect/landmark/start/captain{
 	dir = 4
 	},
 /turf/open/floor/ruinedwood/two,
-/area/indoors/town/keep/phys)
+/area/indoors/town/keep/captain)
 "lFq" = (
 /obj/structure/fluff/steamvent,
 /turf/open/floor/blocks/stonered,
@@ -19773,9 +19742,8 @@
 /obj/machinery/light/fueledstreet/orange/wall,
 /obj/structure/bed/inn/double,
 /obj/item/bedsheet/fabric_double,
-/obj/effect/landmark/start/courtphys,
-/turf/open/floor/ruinedwood/two,
-/area/indoors/town/keep/phys)
+/turf/open/floor/carpet/royalblack,
+/area/indoors/town/keep/captain)
 "lUp" = (
 /obj/item/reagent_containers/food/snacks/produce/fruit/lime{
 	pixel_x = 6;
@@ -19959,12 +19927,10 @@
 /turf/open/floor/ruinedwood,
 /area/outdoors/town)
 "lYt" = (
-/obj/effect/mapping_helpers/access/locker,
-/obj/effect/mapping_helpers/access/keyset/manor/physician,
-/obj/structure/door/stone{
-	name = "Etgard Royal Infirmary"
+/obj/effect/mapping_helpers/secret_door_creator/keep{
+	redstone_id = "keep-tower"
 	},
-/turf/open/floor/ruinedwood/turned/alt,
+/turf/closed/wall/mineral/pipe,
 /area/indoors/town/keep/magician/greenhouse)
 "lYF" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -21927,9 +21893,12 @@
 /turf/open/floor/cobble,
 /area/indoors/town/garrison)
 "nba" = (
-/obj/structure/fluff/railing/wood,
-/turf/open/floor/rooftop,
-/area/outdoors/exposed)
+/obj/structure/door/weak/bolt{
+	dir = 8;
+	name = "Toilet"
+	},
+/turf/open/floor/blocks/paving,
+/area/indoors/town/keep/captain)
 "nbp" = (
 /obj/structure/fluff/walldeco/churchbanner/jealousgod,
 /turf/closed/wall/mineral/stonebrick,
@@ -22451,6 +22420,11 @@
 /area/outdoors/town)
 "nqG" = (
 /obj/structure/table/wood,
+/obj/item/reagent_containers/glass/carafe/teapot/tea{
+	pixel_x = 10;
+	pixel_y = 9
+	},
+/obj/item/reagent_containers/glass/cup/teacup/fancy,
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors/town/keep/phys)
 "nqK" = (
@@ -22897,7 +22871,7 @@
 /area/indoors/town/garrison)
 "nGu" = (
 /turf/open/floor/ruinedwood/two,
-/area/indoors/town/keep/phys)
+/area/indoors/town/keep/captain)
 "nGD" = (
 /turf/open/floor/blocks/green,
 /area/indoors/town/church)
@@ -23660,12 +23634,11 @@
 /turf/open/floor/church,
 /area/indoors/town/church/chapel)
 "oeR" = (
-/obj/structure/lever{
-	pixel_y = -11;
-	redstone_id = "apothecary_shared_2"
+/obj/structure/lever/hidden/keep{
+	redstone_id = "keep-tower"
 	},
-/turf/open/floor/ruinedwood/chevron,
-/area/indoors/town/keep/phys)
+/turf/closed/wall/mineral/pipe,
+/area/indoors/town/keep/magician/greenhouse)
 "ofr" = (
 /obj/effect/decal/carpet/square,
 /turf/open/floor/wood,
@@ -24155,15 +24128,8 @@
 /turf/open/floor/cobblerock,
 /area/outdoors/town)
 "orW" = (
-/obj/structure/stairs{
-	dir = 8
-	},
-/obj/machinery/light/fueledstreet/blue/wall,
-/obj/structure/bars/passage/shutter/open{
-	name = "Institute Access Shutter";
-	redstone_id = "institute_shared_2"
-	},
-/turf/open/floor/ruinedwood/turned/alt,
+/obj/effect/mapping_helpers/secret_door_creator/keep,
+/turf/closed/wall/mineral/pipe,
 /area/indoors/town/keep/magician/greenhouse)
 "orX" = (
 /obj/structure/stairs/stone,
@@ -24499,13 +24465,10 @@
 /turf/open/floor/ruinedwood,
 /area/indoors/town/keep/garrison)
 "oCi" = (
-/obj/structure/rack/shelf/biggest,
-/obj/item/broom,
-/obj/structure/fluff/railing/wood{
-	dir = 4
-	},
-/turf/open/floor/ruinedwood/chevron,
-/area/indoors/town/keep/phys)
+/obj/structure/window/openclose,
+/obj/structure/curtain/bluecurtainold/dir,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/keep/captain)
 "oCq" = (
 /turf/closed/wall/mineral/wood,
 /area/outdoors/town/roofs)
@@ -25253,8 +25216,10 @@
 /turf/open/floor/naturalstone,
 /area/indoors/town)
 "pbj" = (
-/turf/open/floor/blocks/stonered/tiny,
-/area/outdoors/exposed)
+/obj/structure/toilet/filled,
+/obj/machinery/light/fueled/wallfire/candle/weak/l,
+/turf/open/floor/blocks/paving,
+/area/indoors/town/keep/captain)
 "pbp" = (
 /obj/structure/rack,
 /obj/item/gun/ballistic/bow,
@@ -25527,6 +25492,10 @@
 	},
 /turf/open/floor/metal/alt,
 /area/indoors/town/vault)
+"pjr" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/metal/barograte,
+/area/indoors/town/keep/magician/greenhouse)
 "pjt" = (
 /obj/structure/closet/crate/drawer,
 /obj/item/paper,
@@ -26066,11 +26035,9 @@
 /turf/open/floor/greenstone/runed,
 /area/indoors/town/keep/magician/basement)
 "pwD" = (
-/obj/structure/fake_machine/scomm/r{
-	layer = 4.3
-	},
-/turf/open/floor/ruinedwood/two,
-/area/indoors/town/keep/phys)
+/obj/structure/closet/crate/drawer,
+/turf/open/floor/carpet/royalblack,
+/area/indoors/town/keep/captain)
 "pwF" = (
 /obj/structure/fluff/walldeco/vinez,
 /turf/closed/wall/mineral/stonebrick,
@@ -27886,7 +27853,7 @@
 /area/indoors/town/keep/throne)
 "qAF" = (
 /turf/closed/wall/mineral/decowood,
-/area/indoors/town/keep/phys)
+/area/indoors/town/keep/captain)
 "qAV" = (
 /turf/open/floor/metal/barograte,
 /area/indoors/town/dwarfin/shared)
@@ -28546,11 +28513,6 @@
 "qYu" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/fueledstreet/blue/wall,
-/obj/item/weapon/polearm/woodstaff/quarterstaff,
-/obj/item/weapon/polearm/woodstaff/quarterstaff{
-	pixel_x = -11
-	},
-/obj/structure/rack,
 /turf/open/floor/ruinedwood/turned/alt,
 /area/indoors/town/keep/magician/greenhouse)
 "qYX" = (
@@ -29268,6 +29230,10 @@
 /obj/item/ammo_holder/quiver/arrows,
 /turf/open/floor/blocks,
 /area/indoors/town/garrison)
+"rxM" = (
+/obj/structure/ladder,
+/turf/open/floor/ruinedwood,
+/area/outdoors/exposed)
 "rxZ" = (
 /obj/effect/decal/cobbleedge{
 	dir = 10;
@@ -31816,11 +31782,9 @@
 /turf/open/floor/dirt,
 /area/outdoors/town)
 "tgS" = (
-/obj/structure/fake_machine/mail{
-	mailtag = "Feldesher"
-	},
+/obj/structure/fake_machine/scomm,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/town/keep/phys)
+/area/indoors/town/keep/captain)
 "tgV" = (
 /turf/open/floor/ruinedwood/turned/darker,
 /area/indoors/town/church/crypt)
@@ -33706,9 +33670,10 @@
 /turf/open/floor/dirt/road,
 /area/outdoors/town)
 "usn" = (
-/obj/structure/ladder,
-/turf/open/floor/blocks/stonered/tiny,
-/area/outdoors/exposed)
+/obj/structure/well/fountain/sink,
+/obj/structure/mirror,
+/turf/open/floor/blocks/paving,
+/area/indoors/town/keep/captain)
 "usB" = (
 /obj/structure/fluff/railing/border{
 	dir = 9
@@ -36062,12 +36027,12 @@
 /area/outdoors/beach)
 "vMr" = (
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/garrison/captain/butler,
 /obj/structure/door/fancy{
-	name = "Court Physician's Office"
+	name = "Captain's Apartment"
 	},
-/obj/effect/mapping_helpers/access/keyset/manor/physician/butler,
 /turf/open/floor/wood,
-/area/indoors/town/keep/phys)
+/area/indoors/town/keep/captain)
 "vMt" = (
 /obj/machinery/printingpress,
 /turf/open/floor/churchrough/purple,
@@ -36557,13 +36522,8 @@
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/steward)
 "weB" = (
-/obj/structure/stairs,
-/obj/structure/bars/passage/shutter/open{
-	name = "Apothecary Access Shutter";
-	redstone_id = "apothecary_shared_2"
-	},
-/turf/open/floor/ruinedwood/chevron,
-/area/indoors/town/keep/phys)
+/turf/closed/wall/mineral/wood,
+/area/indoors/town/keep/captain)
 "weK" = (
 /obj/structure/table/wood/large/corner{
 	dir = 9
@@ -38716,12 +38676,14 @@
 /turf/open/floor/cobble,
 /area/outdoors/town/neighborhood/west)
 "xtQ" = (
-/obj/structure/window,
-/obj/structure/curtain/greencurtain/dir{
+/obj/structure/curtain/bluecurtain/dir{
+	dir = 8
+	},
+/obj/structure/window/openclose{
 	dir = 8
 	},
 /turf/open/floor/ruinedwood,
-/area/indoors/town/keep/phys)
+/area/indoors/town/keep/captain)
 "xvb" = (
 /obj/effect/landmark/house_spot{
 	default_template = /datum/map_template/hand_bedroom;
@@ -39324,6 +39286,15 @@
 "xPS" = (
 /turf/open/floor/ruinedwood,
 /area/indoors/town/garrison)
+"xQh" = (
+/obj/structure/window/openclose{
+	dir = 4
+	},
+/obj/structure/curtain/bluecurtain/dir{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood,
+/area/indoors/town/keep/captain)
 "xQW" = (
 /obj/effect/decal/cobbleedge{
 	dir = 4
@@ -83470,7 +83441,7 @@ ylK
 fNx
 fNx
 vvT
-hmL
+rxM
 hmL
 hmL
 hmL
@@ -83601,13 +83572,13 @@ ylK
 ylK
 fNx
 fNx
-nba
-hmL
-nbs
+gVB
+gVB
+gVB
 qAF
+xQh
 qAF
-qAF
-ghT
+gMO
 lEX
 uIA
 hoz
@@ -83733,9 +83704,9 @@ ylK
 ylK
 fNx
 ylK
-gVB
+oCi
 pbj
-hoz
+weB
 lFl
 nGu
 aut
@@ -83867,11 +83838,11 @@ ylK
 ylK
 gVB
 usn
-hoz
+weB
 jyx
 nGu
 nGu
-ghT
+jIj
 nWI
 wSd
 yeS
@@ -83997,9 +83968,9 @@ ylK
 ylK
 ylK
 ylK
-nbs
-nbs
-nbs
+gVB
+nba
+gVB
 tgS
 nGu
 hCR
@@ -84129,21 +84100,21 @@ ylK
 ylK
 ylK
 ylK
-nbs
+gVB
 lbu
 hbc
 nGu
 nGu
 cHy
-hoz
+weB
 etG
 akq
 akq
 gFd
 nWI
 akq
-inn
-bpI
+akq
+woR
 hUO
 aJY
 qla
@@ -84261,21 +84232,21 @@ ylK
 ylK
 lwx
 dXo
-ghT
+gMO
 lUn
 pwD
 nGu
 nGu
 adD
-ghT
+gMO
 nqG
 akq
 nWI
 akq
 akq
+akq
+akq
 oeR
-oCi
-bWh
 trm
 trm
 fGy
@@ -84393,22 +84364,22 @@ ylK
 ylK
 lwx
 hmL
-ghT
-ghT
-ghT
+gMO
+gMO
+gMO
 xtQ
 vMr
-ghT
-ghT
+gMO
+gMO
 nIO
 uMU
 nbs
 kJx
-gMO
+akq
 nWI
-weB
+akq
 lYt
-dZS
+pjr
 trm
 ffc
 jvm
@@ -84539,9 +84510,9 @@ nbs
 nbs
 nbs
 nbs
-caG
-orW
 bWh
+orW
+oeR
 caG
 sEG
 dFa
@@ -84671,8 +84642,8 @@ rfJ
 jYw
 jYw
 jYw
-caG
-jIj
+bWh
+dZS
 itX
 quG
 sEG
@@ -84803,8 +84774,8 @@ jYw
 svO
 svO
 eDz
-caG
-wZy
+bWh
+inn
 dZS
 dCH
 ggI
@@ -96538,9 +96509,9 @@ fNx
 fNx
 fNx
 fNx
-fNx
-fNx
-fNx
+qEy
+kgw
+qEy
 fNx
 fNx
 fNx
@@ -96670,9 +96641,9 @@ fNx
 fNx
 fNx
 fNx
-fNx
-fNx
-fNx
+qEy
+udt
+qEy
 fNx
 fNx
 fNx
@@ -96802,9 +96773,9 @@ fNx
 fNx
 fNx
 fNx
-fNx
-fNx
-dvc
+kgw
+vpt
+kgw
 dvc
 dvc
 dvc
@@ -96935,7 +96906,7 @@ fNx
 fNx
 fNx
 qEy
-kgw
+vpt
 qEy
 kgw
 qEy
@@ -97067,7 +97038,7 @@ fNx
 fNx
 fNx
 kgw
-udt
+vpt
 nco
 hqI
 kvr
@@ -109739,9 +109710,9 @@ fNx
 fNx
 fNx
 fNx
-fNx
-fNx
-fNx
+dvc
+dvc
+dvc
 fNx
 fNx
 fNx
@@ -109871,9 +109842,9 @@ fNx
 fNx
 fNx
 fNx
-fNx
-fNx
-fNx
+dvc
+dvc
+dvc
 fNx
 fNx
 fNx
@@ -110003,9 +109974,9 @@ fNx
 fNx
 fNx
 fNx
-fNx
-fNx
-fNx
+dvc
+dvc
+dvc
 fNx
 fNx
 fNx
